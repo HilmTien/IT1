@@ -1,0 +1,100 @@
+/* SIDEINNHOLD */
+
+main {
+  padding: 1.25rem;
+}
+
+main header {
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+}
+
+section img {
+  align-self: center;
+  max-width: 60%;
+  width: 800px;
+}
+
+article header {
+  font-size: 2rem;
+}
+
+/* INGRESS */
+
+.ingress {
+  display: flex;
+  font-size: 1.5rem;
+}
+
+/* SKJEMAER */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 0.5rem;
+}
+
+form input[type="text"] {
+  width: 25rem;
+}
+
+form input[type="email"] {
+  width: 25rem;
+}
+
+form input[type="submit"] {
+  margin-top: 0.5rem;
+  width: 6rem;
+}
+
+/* TIL TOPP KNAPP */
+
+.til-topp {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+  width: 5rem;
+}
+
+/* MOBILVISNING */
+
+@media screen and (max-width: 727px) {
+  /* SKJEMAER */
+
+  form label {
+    text-align: initial;
+  }
+
+  form {
+    align-items: center;
+  }
+
+  /* SIDEINNHOLD */
+
+  section {
+    text-align: center;
+  }
+
+  section img {
+    max-width: 100%;
+  }
+
+  main header {
+    text-align: center;
+  }
+
+  /* INGRESS */
+
+  .ingress {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+}

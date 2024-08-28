@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 70ch;
+    height: 45ch;
+    gap: 1rem;
+}
+
+.grid-span-two-rows {
+    grid-row: span 2;
+}
+
+.grid-span-two-cols {
+    grid-column: span 2;
+}
+
+.grid-item {
+    border-radius: 1em;
+    background-color: rgb(43, 150, 139);
+}

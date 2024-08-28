@@ -1,0 +1,42 @@
+[
+    {
+        "land": "Spania",
+        "sted": "Barcelona",
+        "årstall": 1992
+    },
+    {
+        "land": "USA",
+        "sted": "Atlanta",
+        "årstall": 1996
+    },
+    {
+        "land": "Australia",
+        "sted": "Sydney",
+        "årstall": 2000
+    },
+    {
+        "land": "Hellas",
+        "sted": "Athen",
+        "årstall": 2004
+    },
+    {
+        "land": "Kina",
+        "sted": "Beijing",
+        "årstall": 2008
+    },
+    {
+        "land": "Storbritannia",
+        "sted": "London",
+        "årstall": 2012
+    },
+    {
+        "land": "Brasil",
+        "sted": "Rio de Janeiro",
+        "årstall": 2016
+    },
+    {
+        "land": "Japan",
+        "sted": "Tokyo",
+        "årstall": 2020
+    }
+]

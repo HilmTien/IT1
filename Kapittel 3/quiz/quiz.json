@@ -1,0 +1,32 @@
+[
+    {
+        "spørsmål": "Hva er 1+1?",
+        "alternativer": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "svarIndex": "2"
+    },
+    {
+        "spørsmål": "Hva er 9-2?",
+        "alternativer": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "svarIndex": "1"
+    },
+    {
+        "spørsmål": "Hva er 5-8?",
+        "alternativer": [
+            "0",
+            "-1",
+            "-2",
+            "-3"
+        ],
+        "svarIndex": "3"
+    }
+]

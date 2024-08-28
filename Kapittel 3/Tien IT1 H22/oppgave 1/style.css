@@ -1,0 +1,11 @@
+:root {
+    font-family: sans-serif;
+}
+
+p:first-of-type {
+    font-size: 24px;
+}
+
+p {
+    padding: 10px;
+}

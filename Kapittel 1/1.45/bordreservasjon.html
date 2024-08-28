@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="dynamic.js"></script>
+    <link rel="stylesheet" href="styling.css">
+    <title>Bordreservasjon</title>
+</head>
+
+<body>
+    <form action="dom">
+        <h1>Bordreservasjon</h1>
+        <div>
+            <label for="gjester">Antall gjester: </label>
+            <input type="range" min="1" max="10" step="1" name="gjester" id="gjesterrange"
+                onchange="syncAntallGjester(this.value)">
+            <input type="number" min="1" max="10" name="gjester" id="gjesternumber"
+                onchange="syncAntallGjester(this.value)">
+            <p id="gjesterlabel"></p>
+        </div>
+        <div>
+            <h3>Hvilke retter ønsker du?</h3>
+            <ul id="retterliste">
+                <li>
+                    <input type="checkbox" name="rett" id="forrett" value="forrett" required
+                        onchange="sjekkRettRequirement()">
+                    <label for="forrett">Forrett</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="rett" id="hovedrett" value="hovedrett" required>
+                    <label for="hovedrett">Hovedrett</label>
+                </li>
+                <li>
+                    <input type="checkbox" name="rett" id="dessert" value="dessert" required>
+                    <label for="dessert">Dessert</label>
+                </li>
+            </ul>
+            <!-- <input type="checkbox" name="rett" id="forrett" value="forrett">
+            <label for="forrett">Forrett</label>
+            <br>
+            <input type="checkbox" name="rett" id="hovedrett" value="hovedrett">
+            <label for="hovedrett">Hovedrett</label>
+            <br>
+            <input type="checkbox" name="rett" id="dessert" value="dessert">
+            <label for="dessert">Dessert</label> -->
+        </div>
+        <div>
+            <label for="datovelger">Dato: </label>
+            <input type="date" name="dato" id="datovelger" required>
+            <label for="tidsvelger">Klokkeslett: </label>
+            <input type="time" name="klokkeslett" id="tidsvelger" required>
+        </div>
+
+        <button id="submitbutton" type="submit">Bestill</button>
+    </form>
+</body>
+
+</html>

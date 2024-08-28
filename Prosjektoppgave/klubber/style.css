@@ -1,0 +1,30 @@
+.klubbliste {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.klubb {
+    position: relative;
+    transition: transform 80ms;
+}
+
+.klubb-cover {
+    width: 350px;
+}
+
+.klubb-knapp {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+}
+
+.klubb:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/reset.css" />
+  <link rel="stylesheet" href="/styles/navbar.css" />
+  <link rel="stylesheet" href="/styles/page.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Matteklubben | Akademiet Realfagsgymnas Sandvika</title>
+</head>
+
+<body id="top">
+  <header id="nav-placeholder"></header>
+  <main>
+    <article>
+      <header>
+        <h1>Matteklubben</h1>
+      </header>
+      <section class="ingress">
+        <img src="./cover.jpg" />
+        <div class="ingress-content">
+          <h2>Hvem er vi?</h2>
+          <p>
+            Vi i matteklubben gjør mye forskjellig. Alt fra læring til
+            leksehjelp til prosjektarbeid gjør vi i klubben. Er du
+            interessert? Fyll inn innmeldingsskjemaet nedenfor!
+          </p>
+        </div>
+      </section>
+      <section class="dagens-fun-fact">
+        <h2>Dagens fun-fact om et tall</h2>
+        <p class="fun-fact-text"></p>
+        <br />
+        <p class="fun-fact-stats"></p>
+      </section>
+      <section class="tidsskjema">
+        <h2>Hvilke dager opererer vi?</h2>
+        <p class="tilgjengelighet-tekst"></p>
+        <div class="tilgjengelighet">
+          <span>Mandag</span>
+          <span>Tirsdag</span>
+          <span>Onsdag</span>
+          <span>Torsdag</span>
+          <span>Fredag</span>
+          <span>Lørdag</span>
+          <span>Søndag</span>
+          <div class="mandag"></div>
+          <div class="tirsdag"></div>
+          <div class="onsdag"></div>
+          <div class="torsdag"></div>
+          <div class="fredag"></div>
+          <div class="lørdag"></div>
+          <div class="søndag"></div>
+        </div>
+      </section>
+      <section class="video">
+        <h2>Se hvordan elevene forklarer matematiske prinsipper!</h2>
+        <!-- Kunne også lastet ned video lokalt og brukt video tagg -->
+        <iframe src="https://www.youtube.com/embed/8B7liD9T0jY" title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+      </section>
+      <section>
+        <h2>Innmelding</h2>
+        <p>
+          Etter innmelding, vil du straks bli invitert til en gruppe for
+          videre informasjon
+        </p>
+        <form action="/api/send_innmelding">
+          <label class="side-label">Fornavn</label>
+          <input type="text" id="fornavn" name="fornavn" />
+
+          <label for="etternavn">Etternavn</label>
+          <input type="text" id="etternavn" name="etternavn" />
+
+          <label for="epost">Epost</label>
+          <input type="email" name="epost" id="epost" />
+
+          <label for="klasse">Klasse</label>
+          <label class="side-label">
+            1STA
+            <input type="radio" id="1sta" name="klasse" value="1STA" />
+          </label>
+          <label class="side-label">
+            1STR
+            <input type="radio" id="1str" name="klasse" value="1STR" />
+          </label>
+          <label class="side-label">
+            2STA
+            <input type="radio" id="2sta" name="klasse" value="2STA" />
+          </label>
+          <label class="side-label">
+            3STA
+            <input type="radio" id="3sta" name="klasse" value="3STA" />
+          </label>
+          <input type="submit" value="Send inn" />
+        </form>
+      </section>
+    </article>
+  </main>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="/scripts/globals.js" type="module"></script>
+  <script src="./script.js" type="module"></script>
+</body>
+
+</html>

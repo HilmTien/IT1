@@ -1,0 +1,57 @@
+[
+    {
+        "rett": "Classic Chicken",
+        "ingredienser": [
+            "BBQ chicken",
+            "Rice",
+            "Corn",
+            "Guacamole",
+            "Pico de gallo"
+        ],
+        "pris": 194
+    },
+    {
+        "rett": "Fish",
+        "ingredienser": [
+            "Crumbed cod fish",
+            "Rice",
+            "Paprika",
+            "Onion",
+            "Mango salsa"
+        ],
+        "pris": 208
+    },
+    {
+        "rett": "Baracoa Beef",
+        "ingredienser": [
+            "Pulled beef",
+            "Rice",
+            "Onions",
+            "Black beans",
+            "Pico de gallo"
+        ],
+        "pris": 198
+    },
+    {
+        "rett": "Veggie",
+        "ingredienser": [
+            "Rice",
+            "Corn",
+            "Paprika",
+            "Guacamole",
+            "Pico de gallo"
+        ],
+        "pris": 194
+    },
+    {
+        "rett": "Kids",
+        "ingredienser": [
+            "BBQ chicken",
+            "Rice",
+            "Corn",
+            "Sour cream",
+            "Cheese"
+        ],
+        "pris": 129
+    }
+]

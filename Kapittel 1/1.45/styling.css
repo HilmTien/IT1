@@ -1,0 +1,20 @@
+:root {
+    --margin: 1rem;
+}
+
+body {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    margin-left: var(--margin);
+    margin-right: var(--margin);
+}
+
+#retterliste {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#submitbutton {
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+}

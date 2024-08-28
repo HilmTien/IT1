@@ -1,0 +1,17 @@
+[
+  {
+    "klubbnavn": "Matteklubben",
+    "bildeCoverPath": "./matteklubben/cover.jpg",
+    "klubbSidePath": "./matteklubben/"
+  },
+  {
+    "klubbnavn": "Programmeringsklubben",
+    "bildeCoverPath": "./programmeringsklubben/cover.jpg",
+    "klubbSidePath": null
+  },
+  {
+    "klubbnavn": "Brettspillklubben",
+    "bildeCoverPath": "./brettspillklubben/cover.jpeg",
+    "klubbSidePath": null
+  }
+]

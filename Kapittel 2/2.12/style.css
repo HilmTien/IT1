@@ -1,0 +1,16 @@
+h1 {
+    background-color: red;
+    padding: 1rem;
+    font-family: 'Courier New';
+}
+
+p#test {
+    background-color: aliceblue;
+    color: crimson;
+    font-family: Verdana;
+    /*Verdana, Geneva, Tahoma, sans-serif*/
+}
+
+p#test:hover {
+    font-family: Arial;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto";
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid crimson;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px
+}
+
+thead tr {
+    background-color: crimson;
+    color: white
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+tbody tr:hover {
+    background-color: lightslategrey;
+}

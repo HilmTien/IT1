@@ -1,0 +1,27 @@
+:root {
+    font-family: sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+thead {
+    background-color: #C0E0CE;
+}
+
+tr:nth-child(even) {
+    background-color: #D9E2F3;
+}
+
+h1 {
+    text-align: center;
+}

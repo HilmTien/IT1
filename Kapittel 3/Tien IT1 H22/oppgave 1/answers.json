@@ -1,0 +1,18 @@
+[
+    {
+        "label": "London",
+        "isCorrect": false
+    },
+    {
+        "label": "Juba",
+        "isCorrect": false
+    },
+    {
+        "label": "Ouagadogou",
+        "isCorrect": true
+    },
+    {
+        "label": "Bamako",
+        "isCorrect": false
+    }
+]

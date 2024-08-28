@@ -1,0 +1,17 @@
+[
+    {
+        "product_name": "GoCam 5",
+        "price_original": "1000$",
+        "price_reduced": "750$"
+    },
+    {
+        "product_name": "GoTop Pro",
+        "price_original": "3000$",
+        "price_reduced": "2000$"
+    },
+    {
+        "product_name": "GoPhone Original",
+        "price_original": "500$",
+        "price_reduced": "400$"
+    }
+]

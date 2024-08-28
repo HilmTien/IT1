@@ -1,0 +1,213 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+    scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+
+:root {
+    --button-height: 50px;
+    --grid-gap: 0.5rem;
+    --font-size: 2em;
+    --cell-to-display-ratio: 1.5;
+    --cell-to-calc-ratio: 0.75;
+    --border-color: black;
+    --grayscale-0: #000000;
+    --grayscale-1: #1f1f1f;
+    --grayscale-2: #3f3f3f;
+    --grayscale-3: #5f5f5f;
+    --grayscale-4: #7f7f7f;
+    --grayscale-5: #9f9f9f;
+    --grayscale-6: #bfbfbf;
+    --grayscale-7: #dfdfdf;
+    --grayscale-8: #ffffff;
+    --blue: #9f9fFF;
+    --width: 500px;
+}
+
+html {
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+button {
+    border: 0;
+    padding: 0;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 75%;
+}
+
+.calculator {
+    width: var(--width);
+    text-align: center;
+    font-size: var(--font-size);
+    border: 4px solid var(--border-color);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: repeat(6, 1fr); */
+    gap: var(--grid-gap);
+}
+
+.display {
+    text-align: right;
+    white-space: nowrap;
+}
+
+#text-display {
+    height: calc(var(--button-height) * var(--cell-to-display-ratio));
+    font-size: calc(var(--font-size) * var(--cell-to-display-ratio));
+    line-height: calc(var(--button-height) * var(--cell-to-display-ratio));
+    padding-right: calc(var(--width) / 50);
+    overflow-x: auto;
+}
+
+#calc-display {
+    height: calc(var(--button-height) * var(--cell-to-calc-ratio));
+    font-size: calc(var(--font-size) * var(--cell-to-calc-ratio));
+    line-height: calc(var(--button-height) * var(--cell-to-calc-ratio));
+    padding-right: calc(var(--width) / 50);
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cell {
+    line-height: var(--button-height);
+    height: var(--button-height);
+    white-space: nowrap;
+}
+
+/* Colors */
+
+.gray-0,
+.black {
+    background-color: var(--grayscale-0);
+    color: white;
+}
+
+.gray-1 {
+    background-color: var(--grayscale-1);
+    color: white;
+}
+
+.gray-2 {
+    background-color: var(--grayscale-2);
+    color: white;
+}
+
+.gray-3 {
+    background-color: var(--grayscale-3);
+    color: white;
+}
+
+.gray-4 {
+    background-color: var(--grayscale-4);
+    color: black;
+}
+
+.gray-5 {
+    background-color: var(--grayscale-5);
+    color: black;
+}
+
+.gray-6 {
+    background-color: var(--grayscale-6);
+    color: black;
+}
+
+.gray-7 {
+    background-color: var(--grayscale-7);
+    color: black;
+}
+
+.gray-8,
+.white {
+    background-color: var(--grayscale-8);
+    color: black;
+}
+
+.blue {
+    background-color: var(--blue);
+    color: black;
+}
+
+.bold {
+    font-weight: bold;
+}

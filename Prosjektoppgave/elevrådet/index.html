@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles/reset.css" />
+  <link rel="stylesheet" href="/styles/navbar.css" />
+  <link rel="stylesheet" href="/styles/page.css" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Elevrådet | Akademiet Realfagsgymnas Sandvika</title>
+</head>
+
+<body id="top">
+  <header id="nav-placeholder"></header>
+  <main>
+    <article>
+      <header>
+        <h1>Elevrådet</h1>
+      </header>
+      <section class="ingress">
+        <img src="./assets/elevrådet.jpg" alt="Elevrådet vårt" />
+        <ul>
+          <li>Tillitsvalgte elever som representerer elevenes stemme</li>
+          <li>Jobber proaktivt for elevarrangementer (som LAN)</li>
+          <li>Tar opp klassenes bekymringer og skaper endring</li>
+          <li>Hovedansvar for skolens klubber</li>
+          <li>Representerer skolen utenfor skolebygget</li>
+        </ul>
+      </section>
+      <section class="medlemstabell">
+        <h2>Hvem er i elevrådet?</h2>
+        <p class="elevrådet-mobil-tekst"></p>
+        <p class="tabell-bruksanvisning">Tabellen kan sorteres ved å klikke på "klasse" eller "navn". Sorteringen
+          veksler mellom usortert, sortert i stigende rekkefølge og sortert i synkende rekkefølge</p>
+        <table>
+          <thead>
+            <tr>
+              <th class="tabell-klasse usortert">Klasse</th>
+              <th class="tabell-navn usortert">Navn</th>
+              <th>Epost</th>
+            </tr>
+          </thead>
+          <tbody class="elevråd-tabell"></tbody>
+        </table>
+      </section>
+      <section>
+        <h2>Klubber</h2>
+        <p>I regi av elevrådet har ARGS diverse klubber</p>
+        <a href="/klubber/">Klikk her for å gå til klubbindekssiden</a>
+      </section>
+    </article>
+  </main>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="/scripts/globals.js" type="module"></script>
+  <script src="./script.js" type="module"></script>
+</body>
+
+</html>

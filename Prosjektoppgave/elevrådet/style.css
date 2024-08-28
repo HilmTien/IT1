@@ -1,0 +1,52 @@
+/* MEDLEMSTABELL */
+
+.medlemstabell table {
+    margin-top: 1rem;
+}
+
+.medlemstabell table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 0.25rem 1rem;
+}
+
+.medlemstabell th {
+    background-color: #FFB300;
+}
+
+.medlemstabell tr:nth-child(even) {
+    background-color: rgb(240, 240, 240);
+}
+
+.medlemstabell a {
+    font-size: 1rem;
+}
+
+.tabell-klasse:hover,
+.tabell-navn:hover {
+    cursor: pointer;
+}
+
+.elevrådet-mobil-tekst {
+    display: none;
+}
+
+/* MOBILVISNING */
+
+@media screen and (max-width: 727px) {
+    .medlemstabell table {
+        display: none;
+    }
+
+    .tabell-bruksanvisning {
+        display: none;
+    }
+
+    .elevrådet-mobil-tekst {
+        display: block;
+        height: auto;
+    }
+}

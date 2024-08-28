@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="navbar/load_navbar.js"></script>
+    <script src="footer/load_footer.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Hjemmeside | GoCam</title>
+</head>
+
+<body>
+    <header id="nav-placeholder"></header>
+    <main>
+        <div id="promos-placeholder"></div>
+        <script type="module" src="promos/load_promos.js"></script>
+
+        <section class="forside">
+            <img src="/assets/forside/bakgrunn.jpg">
+            <h1>Den største elektronikk-butikken i Norge</h1>
+        </section>
+        <section>
+            <img src="assets/forside/elkjop.jpg" alt="Elkjøp" class="section-item">
+            <h2>I samarbeid med <a href="https://www.elkjop.no/" target="_blank">Elkjøp</a></h2>
+        </section>
+        <section id="products">
+            <h3>Sjekk produktene våres!</h3>
+            <div>
+                <a href="/produktsider/kamera.html">Kamera</a>
+                <a href="/produktsider/mobil.html">Mobil</a>
+                <a href="/produktsider/laptop.html">Laptop</a>
+            </div>
+        </section>
+    </main>
+    <footer id="footer-placeholder"></footer>
+</body>
+
+</html>

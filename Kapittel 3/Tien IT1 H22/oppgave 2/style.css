@@ -1,0 +1,41 @@
+h1,
+h2 {
+    font-family: Arial, sans-serif;
+    margin-left: 0.5rem;
+}
+
+p {
+    font-family: Georgia, serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+    background-color: #404040;
+    width: 60%;
+    margin: auto
+}
+
+.grid-item {
+    border: 3px solid black;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+.grid-span-two-cols {
+    grid-column: span 2;
+}
+
+.top-color {
+    background-color: #3f5765;
+    color: white;
+}
+
+.body-color {
+    background-color: #bdd4de;
+}
+
+.container img {
+    width: 100%
+}

@@ -1,0 +1,9 @@
+{
+  "mandag": true,
+  "tirsdag": true,
+  "onsdag": false,
+  "torsdag": true,
+  "fredag": false,
+  "lørdag": false,
+  "søndag": true
+}

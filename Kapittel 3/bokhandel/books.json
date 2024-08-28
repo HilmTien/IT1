@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Fallteknikk",
+        "author": "Inga H. Sætre",
+        "coverPath": "./assets/fallteknikk.png",
+        "price": "100 NOK"
+    },
+    {
+        "title": "Maus",
+        "author": "Art Spiegelman",
+        "coverPath": "./assets/maus.png",
+        "price": "69 NOK"
+    },
+    {
+        "title": "Mort Cinder",
+        "author": "Héctor Germán Oesterheld",
+        "coverPath": "./assets/mort cinder.png",
+        "price": "420 NOK"
+    },
+    {
+        "title": "Sue & Tai-chan",
+        "author": "Konami Konata",
+        "coverPath": "./assets/sue tai chan.png",
+        "price": "21 NOK"
+    },
+    {
+        "title": "Princess Knight",
+        "author": "Osamu Tezuka",
+        "coverPath": "./assets/princess knight.png",
+        "price": "727 NOK"
+    },
+    {
+        "title": "Bomba!",
+        "author": "Osamu Tezuka",
+        "coverPath": "./assets/bomba tezuka.png",
+        "price": "99 NOK"
+    }
+]

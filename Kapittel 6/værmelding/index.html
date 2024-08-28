@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" type="module"></script>
+    <title>Yr ripoff</title>
+</head>
+
+<body>
+    <h1>Yr ripoff</h1>
+    <div id="posisjonSøk">
+        <button id="submitCurrentPos">Bruk nåværende lokasjon</button>
+        <label for="stedValg">Forhåndsdefinerte steder<select name="sted" id="stedValg">
+                <option value="none" selected disabled hidden>Velg et sted</option>
+            </select></label>
+        <div id="favorittValgContainer"></div>
+        <label for="lengdegradInput">Lengdegrad<input type="number" id="lengdegradInput"></label>
+        <label for="breddegradInput">Breddegrad<input type="number" id="breddegradInput"></label>
+        <button id="submitInput">Få været!</button>
+    </div>
+
+    <main>
+        <p id="display"></p>
+        <div id="favorittKnappContainer"></div>
+        <div id="fjernFavorittKnappContainer"></div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Klokkeslett</th>
+                    <th>Temperatur</th>
+                </tr>
+            </thead>
+            <tbody id="værTabell"></tbody>
+        </table>
+    </main>
+</body>
+
+</html>

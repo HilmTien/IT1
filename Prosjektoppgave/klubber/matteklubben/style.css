@@ -1,0 +1,79 @@
+.ingress-content {
+  margin-left: 1rem;
+}
+
+/* FUN FACT */
+
+.fun-fact-text {
+  padding: 1rem;
+  margin-top: 0.5rem;
+  display: inline-block;
+  background-color: #3498db;
+  border-radius: 1rem;
+  color: white;
+}
+
+.fun-fact-stats {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #9b59b6;
+  color: white;
+}
+
+/* TIDSSKJEMA TABELL */
+
+.tidsskjema th {
+  width: 6rem;
+  padding: 0 0.5rem;
+}
+
+.tilgjengelighet {
+  display: grid;
+  grid-template-columns: repeat(7, 6rem);
+  grid-template-rows: 2rem 6rem;
+  column-gap: 0.25rem;
+  text-align: center;
+}
+
+.tilgjengelighet-tekst {
+  padding: 1rem 0;
+}
+
+.opererer {
+  background-color: #2ecc71;
+}
+
+.opererer-ikke {
+  background-color: #e74c3c;
+}
+
+/* VIDEO */
+
+.video iframe {
+  margin-top: 1rem;
+  width: 100%;
+  height: 80vh;
+}
+
+@media screen and (max-width: 727px) {
+  .ingress-content {
+    margin: 0;
+  }
+
+  .tilgjengelighet {
+    grid-template-rows: repeat(7, 4rem);
+    grid-template-columns: 6rem 6rem;
+    grid-auto-flow: column;
+    column-gap: 0;
+    row-gap: 0.25rem;
+    line-height: 4rem;
+  }
+
+  .tidsskjema {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

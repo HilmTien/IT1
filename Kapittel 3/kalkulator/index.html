@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./calculator.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator gray-6">
+        <div class="display">
+            <div id="calc-display" class="gray-6"></div>
+            <div id="text-display" class="gray-6"></div>
+        </div>
+        <div class="buttons">
+            <button class="cell gray-7" onclick=resetCalculator()>C</button>
+            <button class="cell gray-7" onclick=removeLastNumber()>CE</button>
+            <button class="cell gray-7" onclick=removeLastCharacter()>Back</button>
+            <button class="cell gray-7" onclick=addToExpression(this)>/</button>
+            <button class="cell white bold" onclick=addToExpression(this)>7</button>
+            <button class="cell white bold" onclick=addToExpression(this)>8</button>
+            <button class="cell white bold" onclick=addToExpression(this)>9</button>
+            <button class="cell gray-7" onclick=addToExpression(this)>*</button>
+            <button class="cell white bold" onclick=addToExpression(this)>4</button>
+            <button class="cell white bold" onclick=addToExpression(this)>5</button>
+            <button class="cell white bold" onclick=addToExpression(this)>6</button>
+            <button class="cell gray-7" onclick=addToExpression(this)>-</button>
+            <button class="cell white bold" onclick=addToExpression(this)>1</button>
+            <button class="cell white bold" onclick=addToExpression(this)>2</button>
+            <button class="cell white bold" onclick=addToExpression(this)>3</button>
+            <button class="cell gray-7" onclick=addToExpression(this)>+</button>
+            <button class="cell white" onclick=negate()>+/-</button>
+            <button class="cell white bold" onclick=addToExpression(this)>0</button>
+            <button class="cell white bold" onclick=addToExpression(this)>.</button>
+            <button class="cell blue" onclick=calculate()>=</button>
+        </div>
+    </div>
+</body>
+
+</html>

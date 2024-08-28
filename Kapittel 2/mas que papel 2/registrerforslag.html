@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Más que papel | Registrer forslag</title>
+</head>
+
+<body>
+    <form action="registrerforslag.html">
+        <label for="navn">Navnet ditt: </label>
+        <input type="text" name="navn" id="navn" required>
+        <label for="forslag">Forslag: </label>
+        <input type="text" name="forslag" id="forslag" required>
+        <button type="submit">Send inn forslag!</button>
+    </form>
+
+    <p id="takkforforslag"></p>
+
+    <script>
+        let params = new URLSearchParams(window.location.search)
+
+        let navn = params.get("navn")
+        let forslag = params.get("forslag")
+
+        if (navn !== null | forslag !== null) {
+            document.getElementById("takkforforslag").innerText = `Takk ${navn} for at du foreslo boka "${forslag}" til oss!`
+        }
+    </script>
+</body>
+
+</html>

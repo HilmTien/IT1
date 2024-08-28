@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav a {
+    flex-basis: content;
+    text-decoration: none;
+    padding: 1rem;
+    background-color: coral;
+    color: black;
+    border: 2px solid black;
+}
+
+.bibliotek {
+    --seksjon-høyde: 4rem;
+    --bok-høyde: calc(var(--seksjon-høyde) * 6);
+    display: grid;
+    grid-template: repeat(2, var(--seksjon-høyde) var(--bok-høyde)) / 33% 33% 33%;
+    row-gap: 0.5rem;
+}
+
+.seksjon {
+    grid-column: 1 / -1;
+    align-self: center;
+    margin-left: 2.5%;
+    padding: 0.75rem 0;
+    font-size: 2rem;
+}
+
+.bok {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/*.boktittel {
+    white-space: nowrap; Krever dynamic font size
+}*/
+
+
+/*.bokforfatter {
+    grid-area: forfatter;
+    justify-self: start;
+    margin: 0 0.5rem;
+    font-size: 0.9rem;
+}*/
+
+.bokbeskrivelse {
+    font-size: 0.8rem;
+}

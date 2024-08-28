@@ -1,0 +1,31 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 62.5rem;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-item {
+    height: 100%;
+}
+
+.red-bg {
+    background-color: crimson;
+}
+
+.orange-bg {
+    background-color: coral;
+}
+
+.yellow-bg {
+    background-color: darkkhaki;
+}
+
+.green-bg {
+    background-color: chartreuse;
+}
+
+.blue-bg {
+    background-color: cornflowerblue;
+}

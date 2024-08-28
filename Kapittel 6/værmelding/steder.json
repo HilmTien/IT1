@@ -1,0 +1,50 @@
+{
+    "Byer": [
+        {
+            "stedsnavn": "Oslo",
+            "koordinat": {
+                "lengdegrad": 10.75,
+                "breddegrad": 59.91
+            }
+        },
+        {
+            "stedsnavn": "Trondheim",
+            "koordinat": {
+                "lengdegrad": 10.4,
+                "breddegrad": 63.42
+            }
+        }
+    ],
+    "Steder": [
+        {
+            "stedsnavn": "Kunnskapssenteret",
+            "koordinat": {
+                "lengdegrad": 10.5255,
+                "breddegrad": 59.892
+            }
+        },
+        {
+            "stedsnavn": "Kontoret",
+            "koordinat": {
+                "lengdegrad": 10.639,
+                "breddegrad": 59.9125
+            }
+        }
+    ],
+    "Øyer": [
+        {
+            "stedsnavn": "Tromsøya",
+            "koordinat": {
+                "lengdegrad": 19,
+                "breddegrad": 69.69
+            }
+        },
+        {
+            "stedsnavn": "Mallorca",
+            "koordinat": {
+                "lengdegrad": 2.641,
+                "breddegrad": 39.575
+            }
+        }
+    ]
+}
